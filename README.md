@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+user create account
+user login
+user logout
+user ask question
+user add responses
+user view questions and responses
+1 users vote on response
+homepage shows all q's in chronological order with response and votes
+user who asked the question gets to give correct green check
+users vote on question
 
-Things you may want to cover:
+only logged in users can add question
+only logged in users can add responses
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+admin: see daily number of questions and responses
+admin: see users
+admin: give users admin power
+admin: navbar for admin options

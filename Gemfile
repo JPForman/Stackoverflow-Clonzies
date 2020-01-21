@@ -61,4 +61,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :test do
   gem 'shoulda-matchers'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'factory_bot_rails'
+  gem 'simplecov', require: false
 end

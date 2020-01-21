@@ -42,6 +42,9 @@ class ResponsesController < ApplicationController
     redirect_to question_path(@response.question)
   end
 
+  # def best_answer
+  #     @response = Response.find(params[:id])
+
   private
   def response_params
     params.require(:response).permit(:content)

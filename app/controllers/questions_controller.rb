@@ -44,6 +44,7 @@ def update
   redirect_to questions_path
 end
 
+
   private
    def question_params
      params.require(:question).permit(:name, :content)
